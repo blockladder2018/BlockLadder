@@ -1,5 +1,5 @@
 {
-  "name": "BlockLadder",
+  "name": "block-ladder",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,12 +7,25 @@
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
     "react": "16.3.1",
-    "react-native": "0.55.4"
+    "react-native": "0.55.4",
+    "react-native-uuid": "^1.4.9",
+    "react-navigation": "^2.0.1",
+    "react-redux": "^5.0.7",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.2.0",
+    "reduxsauce": "^1.0.0"
   },
   "devDependencies": {
     "babel-jest": "22.4.3",
     "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
     "jest": "22.4.3",
     "react-test-renderer": "16.3.1"
   },
